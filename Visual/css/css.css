@@ -1,0 +1,62 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Helvetica;
+  }
+  
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/img/fondologin.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+  }
+  
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .inicio {
+    text-align: center;
+    border-radius: 20px;
+    padding: 25px 25px;
+    background-color: rgba(255, 255, 255, 0.185); /* Fondo semitransparente */
+  }
+  
+  .titulo {
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: 800px;
+    color: white;
+  }
+  
+  .titulo--dos {
+    margin-bottom: 5px;
+  }
+  
+  .titulo--dos ::placeholder {
+    text-align: center;
+  }
+  
+  .boton button {
+    margin-bottom: 5px;
+    width: 100%; /* Ajustar el ancho del botón al 100% del contenedor */
+    height: 30px; /* Ajustar la altura del botón */
+    font-size: 18px; /* Tamaño de la fuente del botón */
+    background-color: #3498db; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    border-radius: 10px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
+  }
+  
+  .boton button:hover {
+    background-color: #217dbb; /* Color de fondo al pasar sobre el botón */
+  }
