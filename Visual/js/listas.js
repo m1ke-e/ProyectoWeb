@@ -1,8 +1,8 @@
 const datos = [
   {
     id:0,
-    img: crearImagen("/img/ensalada.jpg"),
-    nombre: "Primero",
+    img: "/img/ensalada.jpg",
+    nombre: "PrimeraEnsalada",
     descripcion: "Ensalada con ingredientes variados...",
     tipo: "Ensalada",
     precio: 10000,
@@ -14,7 +14,7 @@ const datos = [
   },
   {
     id:1,
-    img: crearImagen("/img/ensalada.jpg"),
+    img: "/img/ensalada.jpg",
     nombre: "Segundo",
     descripcion: "Ensalada con ingredientes variados...",
     tipo: "Ensalada",
@@ -28,7 +28,7 @@ const datos = [
 
   {
     id:2,
-    img: crearImagen("/img/tacos.jpg"),
+    img: "/img/tacos.jpg",
     nombre: "Tacos al Pastor",
     descripcion: "Tacos con carne al pastor",
     tipo: "Tacos",
@@ -42,7 +42,7 @@ const datos = [
 
   {
     id:3,
-    img: crearImagen("/img/vino.jpg"),
+    img: "/img/vino.jpg",
     nombre: "Cariñoso",
     descripcion: "Vino con notas de uva",
     tipo: "Vino",
@@ -56,7 +56,7 @@ const datos = [
 
   {
     id:4,
-    img: crearImagen("/img/ensalada.jpg"),
+    img: "/img/ensalada.jpg",
     nombre: "Ensalada César",
     descripcion: "Ensalada con ingredientes variados...",
     tipo: "Ensalada",
@@ -70,8 +70,8 @@ const datos = [
 
   {
     id:5,
-    img: crearImagen("/img/ensalada.jpg"),
-    nombre: "primero",
+    img: "/img/ensalada.jpg",
+    nombre: "Quinto",
     descripcion: "Ensalada con ingredientes variados...",
     tipo: "Ensalada",
     precio: 10000,
@@ -84,7 +84,7 @@ const datos = [
 
   {
     id:6,
-    img: crearImagen("/img/ensalada.jpg"),
+    img: "/img/ensalada.jpg",
     nombre: "Ensalada César",
     descripcion: "Ensalada con ingredientes variados...",
     tipo: "Ensalada",
@@ -98,7 +98,7 @@ const datos = [
 
   {
     id:7,
-    img: crearImagen("/img/ensalada.jpg"),
+    img: "/img/ensalada.jpg",
     nombre: "Ensalada César",
     descripcion: "Ensalada con ingredientes variados...",
     tipo: "Ensalada",
@@ -112,7 +112,7 @@ const datos = [
 
   {
     id:8,
-    img: crearImagen("/img/ensalada.jpg"),
+    img: "/img/ensalada.jpg",
     nombre: "Ensalada César",
     descripcion: "Ensalada con ingredientes variados...",
     tipo: "Ensalada",
@@ -126,7 +126,7 @@ const datos = [
 
   {
     id:9,
-    img: crearImagen("/img/ensalada.jpg"),
+    img: "/img/ensalada.jpg",
     nombre: "ultimo",
     descripcion: "Ensalada con ingredientes variados...",
     tipo: "Ensalada",
@@ -140,7 +140,7 @@ const datos = [
 
   {
     id:10,
-    img: crearImagen("/img/ensalada.jpg"),
+    img: "/img/ensalada.jpg",
     nombre: "Ensalada César",
     descripcion: "Ensalada con ingredientes variados...",
     tipo: "Ensalada",
@@ -154,8 +154,8 @@ const datos = [
 
   {
     id:11,
-    img: crearImagen("/img/tacos.jpg"),
-    nombre: "11",
+    img: "/img/tacos.jpg",
+    nombre: "Todos los 11 son pruebas",
     descripcion: "11",
     tipo: "11",
     precio: 11,
@@ -168,7 +168,7 @@ const datos = [
 
   {
     id:12,
-    img: crearImagen("/img/tacos.jpg"),
+    img: "/img/tacos.jpg",
     nombre: "11",
     descripcion: "11",
     tipo: "11",
@@ -182,7 +182,7 @@ const datos = [
 
   {
     id:13,
-    img: crearImagen("/img/tacos.jpg"),
+    img: "/img/tacos.jpg",
     nombre: "11",
     descripcion: "11",
     tipo: "11",
@@ -196,7 +196,7 @@ const datos = [
 
   {
     id:14,
-    img: crearImagen("/img/tacos.jpg"),
+    img: "/img/tacos.jpg",
     nombre: "11",
     descripcion: "11",
     tipo: "11",
@@ -210,7 +210,7 @@ const datos = [
 
   {
     id:15,
-    img: crearImagen("/img/tacos.jpg"),
+    img: "/img/tacos.jpg",
     nombre: "11",
     descripcion: "11",
     tipo: "11",
@@ -224,7 +224,7 @@ const datos = [
 
   {
     id:16,
-    img: crearImagen("/img/tacos.jpg"),
+    img: "/img/tacos.jpg",
     nombre: "11",
     descripcion: "11",
     tipo: "11",
@@ -238,7 +238,7 @@ const datos = [
 
   {
     id:17,
-    img: crearImagen("/img/tacos.jpg"),
+    img: "/img/tacos.jpg",
     nombre: "11",
     descripcion: "11",
     tipo: "11",
@@ -252,7 +252,7 @@ const datos = [
 
   {
     id:18,
-    img: crearImagen("/img/tacos.jpg"),
+    img: "/img/tacos.jpg",
     nombre: "11",
     descripcion: "11",
     tipo: "11",
@@ -266,7 +266,7 @@ const datos = [
 
   {
     id:19,
-    img: crearImagen("/img/tacos.jpg"),
+    img: "/img/tacos.jpg",
     nombre: "11",
     descripcion: "11",
     tipo: "11",
@@ -280,7 +280,7 @@ const datos = [
 
   {
     id:19,
-    img: crearImagen("/img/tacos.jpg"),
+    img: "/img/tacos.jpg",
     nombre: "11",
     descripcion: "11",
     tipo: "11",
@@ -294,7 +294,7 @@ const datos = [
 
   {
     id:20,
-    img: crearImagen("/img/tacos.jpg"),
+    img: "/img/tacos.jpg",
     nombre: "11",
     descripcion: "11",
     tipo: "11",
@@ -308,7 +308,7 @@ const datos = [
 
   {
     id:21,
-    img: crearImagen("/img/tacos.jpg"),
+    img: "/img/tacos.jpg",
     nombre: "11",
     descripcion: "11",
     tipo: "11",
@@ -322,7 +322,7 @@ const datos = [
 
   {
     id:22,
-    img: crearImagen("/img/tacos.jpg"),
+    img: "/img/tacos.jpg",
     nombre: "11",
     descripcion: "11",
     tipo: "11",
@@ -336,7 +336,7 @@ const datos = [
 
   {
     id:23,
-    img: crearImagen("/img/tacos.jpg"),
+    img: "/img/tacos.jpg",
     nombre: "11",
     descripcion: "11",
     tipo: "11",
@@ -350,7 +350,7 @@ const datos = [
 
   {
     id:24,
-    img: crearImagen("/img/tacos.jpg"),
+    img: "/img/tacos.jpg",
     nombre: "11",
     descripcion: "11",
     tipo: "11",
@@ -364,7 +364,7 @@ const datos = [
 
   {
     id:25,
-    img: crearImagen("/img/tacos.jpg"),
+    img: "/img/tacos.jpg",
     nombre: "11",
     descripcion: "11",
     tipo: "11",
@@ -378,7 +378,7 @@ const datos = [
 
   {
     id:26,
-    img: crearImagen("/img/tacos.jpg"),
+    img: "/img/tacos.jpg",
     nombre: "11",
     descripcion: "11",
     tipo: "11",
@@ -392,7 +392,7 @@ const datos = [
 
   {
     id:27,
-    img: crearImagen("/img/tacos.jpg"),
+    img: "/img/tacos.jpg",
     nombre: "11",
     descripcion: "11",
     tipo: "11",
@@ -406,7 +406,7 @@ const datos = [
 
   {
     id:28,
-    img: crearImagen("/img/tacos.jpg"),
+    img: "/img/tacos.jpg",
     nombre: "11",
     descripcion: "11",
     tipo: "11",
@@ -420,7 +420,7 @@ const datos = [
 
   {
     id:29,
-    img: crearImagen("/img/tacos.jpg"),
+    img: "/img/tacos.jpg",
     nombre: "11",
     descripcion: "11",
     tipo: "11",
@@ -434,7 +434,7 @@ const datos = [
 
   {
     id:30,
-    img: crearImagen("/img/tacos.jpg"),
+    img: "/img/tacos.jpg",
     nombre: "11",
     descripcion: "11",
     tipo: "11",
@@ -448,7 +448,7 @@ const datos = [
 
   {
     id:31,
-    img: crearImagen("/img/tacos.jpg"),
+    img: "/img/tacos.jpg",
     nombre: "11",
     descripcion: "11",
     tipo: "11",
@@ -462,7 +462,7 @@ const datos = [
 
   {
     id:32,
-    img: crearImagen("/img/tacos.jpg"),
+    img: "/img/tacos.jpg",
     nombre: "11",
     descripcion: "11",
     tipo: "11",
@@ -476,7 +476,7 @@ const datos = [
 
   {
     id:33,
-    img: crearImagen("/img/tacos.jpg"),
+    img: "/img/tacos.jpg",
     nombre: "11",
     descripcion: "11",
     tipo: "11",
@@ -490,7 +490,7 @@ const datos = [
 
   {
     id:34,
-    img: crearImagen("/img/tacos.jpg"),
+    img: "/img/tacos.jpg",
     nombre: "11",
     descripcion: "11",
     tipo: "11",
@@ -504,7 +504,7 @@ const datos = [
 
   {
     id:35,
-    img: crearImagen("/img/tacos.jpg"),
+    img: "/img/tacos.jpg",
     nombre: "11",
     descripcion: "11",
     tipo: "11",
@@ -518,7 +518,7 @@ const datos = [
 
   {
     id:37,
-    img: crearImagen("/img/vino.jpg"),
+    img: "/img/vino.jpg",
     nombre: "Cariñoso",
     descripcion: "Vino con notas de uva",
     tipo: "Vino",
@@ -531,7 +531,7 @@ const datos = [
   },
   {
     id:38,
-    img: crearImagen("/img/vino.jpg"),
+    img: "/img/vino.jpg",
     nombre: "Cariñoso",
     descripcion: "Vino con notas de uva",
     tipo: "Vino",
@@ -544,7 +544,7 @@ const datos = [
   },
   {
     id:39,
-    img: crearImagen("/img/vino.jpg"),
+    img: "/img/vino.jpg",
     nombre: "Cariñoso",
     descripcion: "Vino con notas de uva",
     tipo: "Vino",
@@ -557,7 +557,7 @@ const datos = [
   },
   {
     id:40,
-    img: crearImagen("/img/vino.jpg"),
+    img: "/img/vino.jpg",
     nombre: "Cariñoso",
     descripcion: "Vino con notas de uva",
     tipo: "Vino",
@@ -570,7 +570,7 @@ const datos = [
   },
   {
     id:41,
-    img: crearImagen("/img/vino.jpg"),
+    img: "/img/vino.jpg",
     nombre: "Cariñoso",
     descripcion: "Vino con notas de uva",
     tipo: "Vino",
@@ -583,7 +583,7 @@ const datos = [
   },
   {
     id:42,
-    img: crearImagen("/img/vino.jpg"),
+    img: "/img/vino.jpg",
     nombre: "Cariñoso",
     descripcion: "Vino con notas de uva",
     tipo: "Vino",
@@ -596,7 +596,7 @@ const datos = [
   },
   {
     id:43,
-    img: crearImagen("/img/vino.jpg"),
+    img: "/img/vino.jpg",
     nombre: "Cariñoso",
     descripcion: "Vino con notas de uva",
     tipo: "Vino",
@@ -609,7 +609,7 @@ const datos = [
   },
   {
     id:44,
-    img: crearImagen("/img/vino.jpg"),
+    img: "/img/vino.jpg",
     nombre: "Cariñoso",
     descripcion: "Vino con notas de uva",
     tipo: "Vino",
@@ -622,7 +622,7 @@ const datos = [
   },
   {
     id:45,
-    img: crearImagen("/img/vino.jpg"),
+    img: "/img/vino.jpg",
     nombre: "Cariñoso",
     descripcion: "Vino con notas de uva",
     tipo: "Vino",
@@ -635,7 +635,7 @@ const datos = [
   },
   {
     id:46,
-    img: crearImagen("/img/vino.jpg"),
+    img: "/img/vino.jpg",
     nombre: "Cariñoso",
     descripcion: "Vino con notas de uva",
     tipo: "Vino",
@@ -648,7 +648,7 @@ const datos = [
   },
   {
     id:47,
-    img: crearImagen("/img/vino.jpg"),
+    img: "/img/vino.jpg",
     nombre: "Cariñoso",
     descripcion: "Vino con notas de uva",
     tipo: "Vino",
@@ -661,7 +661,7 @@ const datos = [
   },
   {
     id:48,
-    img: crearImagen("/img/vino.jpg"),
+    img: "/img/vino.jpg",
     nombre: "Cariñoso",
     descripcion: "Vino con notas de uva",
     tipo: "Vino",
@@ -674,7 +674,7 @@ const datos = [
   },
   {
     id:49,
-    img: crearImagen("/img/vino.jpg"),
+    img: "/img/vino.jpg",
     nombre: "Ultimo",
     descripcion: "Vino con notas de uva",
     tipo: "Vino",
@@ -713,14 +713,11 @@ const llenarTabla = function () {
   const filasTabla = document.querySelectorAll("table tr");
   // Renderiza los datos
 
-
-  console.log('Data final');
-  console.log(data);
   var obj;
     for (let i = 0; i < 10; i++) {
       const fila = filasTabla[i + 1]; // Omite la fila de encabezado
       // Limpia la celda de imagen antes de agregar la nueva imagen
-      const celdaImagen = fila && fila.children && fila.children[1]; // Accede a la celda de imagen en la fila actual
+      const celdaImagen = fila.children[1]; // Accede a la celda de imagen en la fila actual
       // Mientras haya algún hijo (elemento secundario) en la celda de imagen
       while (celdaImagen.firstChild) {
         // Elimina el primer hijo de la celda de imagen
@@ -729,19 +726,23 @@ const llenarTabla = function () {
 
       if (data[indiceInicio + i]) {
         obj = data[indiceInicio + i];
-        fila.children[0].innerHTML = `platillo ${indiceInicio + i + 1}`;
-        celdaImagen.appendChild(obj.img);
+        fila.children[0].innerHTML = obj.id+1;
+        // Crea un elemento img
+        const imgElement = document.createElement('img');
+        imgElement.src = obj.img;
+
+        // Añade el elemento img a la celdaImagen
+        celdaImagen.appendChild(imgElement);
         fila.children[2].innerHTML = obj.nombre;
         fila.children[3].innerHTML = obj.descripcion;
         fila.children[4].innerHTML = obj.tipo;
         fila.children[5].innerHTML = obj.precio;
       } else {
         fila.children[0].innerHTML = '';
-        fila.children[2].innerHTML = '';;
-        fila.children[3].innerHTML = '';;
-        fila.children[4].innerHTML = '';;
-        fila.children[5].innerHTML = '';;
-        fila.children[6].innerHTML = '';;
+        fila.children[2].innerHTML = '';
+        fila.children[3].innerHTML = '';
+        fila.children[4].innerHTML = '';
+        fila.children[5].innerHTML = '';
       }
       
       
@@ -801,12 +802,6 @@ document.getElementById("siguiente").addEventListener("click", function () {
   cambiarPagina(1);
 });
 
-function crearImagen(src) {
-  const imagen = new Image();
-  imagen.src = src;
-  return imagen;
-}
-
 const limpiar = function () {
   datosFiltrados = [];
   paginaActual = 1;
@@ -826,7 +821,7 @@ const filtrar = function () {
       item.nombre.toLowerCase().includes(filtroNombre) &&
       item.tipo.toLowerCase().includes(filtroTipo),
   );
-  console.log(datosFiltrados);
+
   // Reiniciar la paginación y mostrar los datos filtrados en la primera página
   paginaActual = 1;
   document.getElementById("pag").innerHTML = "Pagina " + paginaActual;
@@ -840,26 +835,15 @@ document.getElementById("filtrar").addEventListener("click", function () {
 
 llenarTabla();
 
-function info(id) {
-  // Abre el modal
-  const modal = document.getElementById("myModal");
-  
-  const span = document.getElementsByClassName("span")[0];
+const modalButtons = document.getElementsByClassName("modal-button");
 
-  // Llenar el contenido del modal con la información del platillo y campos editables
-  modalDetalles.innerHTML = `
-  <img src="${datos.imagen}" alt="Imagen de referencia">
-  <p>Nombre: <input type="text" id="Nombre" value="${datos.nombre}"></p>
-  <p>Descripcion: <input type="text" id="Descripcion" value="${datos.descripcion}"></p>
-  <p>Tipo: <input type="text" id="Tipo" value="${datos.tipo}"></p>
-  <p>Precio: <input type="text" id="Precio" value="${datos.precio}"></p>
-  <p>Origen: <input type="number" id="Origen" value="${datos.origen}"></p>
-  <p>Promocion: <input type="number" id="Promocion" value="${datos.promocion}"></p>
-  <p>Cant. Porciones: <input type="number" id="Cant" value="${datos.cantidadPorcion}"></p>
-  <p>Puntuacion: <input type="number" id="Puntuacion" value="${datos.puntuacion}"></p>
-  <button onclick="guardarCambios(${datos.id})">Guardar cambios</button>
-`;
-  modal.style.display = "block";
+// Itera sobre la colección de elementos y agrega un evento a cada botón
+for (let i = 0; i < modalButtons.length; i++) {
+  modalButtons[i].addEventListener("click", function (e) {
+    // Obtén el número de fila desde el atributo data-fila
+    const id = e.target.parentElement.parentElement.children[0].textContent;
+    modal1(id);
+  });
 }
 
 function cerrarModal() {
@@ -867,3 +851,58 @@ function cerrarModal() {
   modal.style.display = "none";
 }
 
+function modal1(id) {
+  // Abre el modal
+  const modal = document.getElementById("myModal");
+  
+
+  // Llenar el contenido del modal con la información del platillo y campos editables
+  id--;
+  modalDetalles.innerHTML = `
+  <img src="${datos[id].img}" alt="Imagen de referencia">
+  <p>Nombre: <input type="text" id="Nombre" value="${datos[id].nombre}"></p>
+  <p>Descripcion: <input type="text" id="Descripcion" value="${datos[id].descripcion}"></p>
+  <p>Tipo: <input type="text" id="Tipo" value="${datos[id].tipo}"></p>
+  <p>Precio: <input type="number" id="Precio" value="${datos[id].precio}"></p>
+  <p>Origen: <input type="text" id="Origen" value="${datos[id].origen}"></p>
+  <p>Promocion: <input type="text" id="Promocion" value="${datos[id].promocion}"></p>
+  <p>Porciones: <input type="text" id="Cant" value="${datos[id].cantidadPorcion}"></p>
+  <p>Puntuacion: <input type="text" id="Puntuacion" value="${datos[id].puntuacion}"></p>
+  <button onclick="guardarConRetraso(${datos[id].id})">Guardar cambios</button>
+`;
+  modal.style.display = "block";
+}
+
+function guardarCambios(id) {
+  const platillo = datos.find((item) => item.id === id);
+  // Actualiza las propiedades del platillo con los valores ingresados en los campos del modal
+  platillo.nombre = document.getElementById("Nombre").value;
+  platillo.descripcion = document.getElementById("Descripcion").value;
+  platillo.tipo = document.getElementById("Tipo").value;
+  platillo.precio = parseInt(document.getElementById("Precio").value); // Convierte el precio a número
+  platillo.origen = document.getElementById("Origen").value;
+  platillo.promocion = document.getElementById("Promocion").value;
+  platillo.cantidadPorcion = document.getElementById("Cant").value;
+  platillo.puntuacion = document.getElementById("Puntuacion").value;
+
+  llenarTabla();
+
+  cerrarModal();
+}
+
+const mensaje=document.getElementById("mensaje");
+function guardarConRetraso(id) {
+  // Crear una promesa que se resuelva después de dos segundos
+  mensaje.innerHTML="Cargando...";
+  const promesa = new Promise((resolve) => {
+    setTimeout(() => {
+      resolve();
+    }, 2000);
+  });
+
+  // Cuando la promesa se resuelve, ejecutar la función guardarCambios
+  promesa.then(() => {
+    mensaje.innerHTML="";
+    guardarCambios(id);
+  });
+}
