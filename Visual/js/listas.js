@@ -803,6 +803,9 @@ document.getElementById("siguiente").addEventListener("click", function () {
 });
 
 const limpiar = function () {
+  const filtro1=document.getElementById("filtroNombre").value="";
+  const filtro2=document.getElementById("filtroTipo").value="";
+
   datosFiltrados = [];
   paginaActual = 1;
   document.getElementById("pag").innerHTML = "Pagina " + paginaActual;
@@ -854,7 +857,6 @@ function cerrarModal() {
 function modal1(id) {
   // Abre el modal
   const modal = document.getElementById("myModal");
-  
 
   // Llenar el contenido del modal con la información del platillo y campos editables
   id--;
@@ -868,7 +870,7 @@ function modal1(id) {
   <p>Promocion: <input type="text" id="Promocion" value="${datos[id].promocion}"></p>
   <p>Porciones: <input type="text" id="Cant" value="${datos[id].cantidadPorcion}"></p>
   <p>Puntuacion: <input type="text" id="Puntuacion" value="${datos[id].puntuacion}"></p>
-  <button onclick="guardarConRetraso(${datos[id].id})">Guardar cambios</button>
+  <button onclick="guardar(${datos[id].id})">Guardar cambios</button>
 `;
   modal.style.display = "block";
 }
@@ -891,7 +893,7 @@ function guardarCambios(id) {
 }
 
 const mensaje=document.getElementById("mensaje");
-function guardarConRetraso(id) {
+function guardar(id) {
   // Crear una promesa que se resuelva después de dos segundos
   mensaje.innerHTML="Cargando...";
   const promesa = new Promise((resolve) => {

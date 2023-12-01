@@ -63,7 +63,7 @@ const data = [
       if (!mayus.test(contra)) {
         contraValida = false;
         result.innerHTML =
-          "Contraseña incorrecta\nDebe contener menos una letra mayuscula";
+          "Contraseña incorrecta\nDebe contener al menos una letra mayuscula";
         return;
       }
   

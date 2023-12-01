@@ -10,16 +10,16 @@
   <body>
     <div class="contenedor">
       <div class="inicio">
-        <h1 class="titulo">Login</h1>
-        <p class="titulo--dos">
+        <h1 class="inicio__titulo">Login</h1>
+        <p class="inicio__campo">
           <input
             type="email"
-            placeholder="Correo electronico"
+            placeholder="Correo electrónico"
             id="correo"
             name="cajadetexto"
           />
         </p>
-        <p class="titulo--dos">
+        <p class="inicio__campo">
           <input
             id="contra"
             placeholder="Contraseña"
@@ -27,14 +27,14 @@
             name="cajadetexto"
           />
         </p>
-        <p class="boton">
-          <button onclick="limpiar()">Limpiar</button>
-          <button id="continuar">Continuar</button>
+        <p class="inicio__botones">
+          <button onclick="limpiar()" class="boton boton--limpiar">Limpiar</button>
+          <button id="continuar" class="boton boton--continuar">Continuar</button>
         </p>
       </div>
-      <p id="error" style="color: red;"></p>
-      <p id="cargando" style="color: white;"></p>
+      <p id="error" class="mensaje mensaje--error"></p>
+      <p id="cargando" class="mensaje mensaje--cargando"></p>
     </div>
+    <script src="./js/js.js" type="text/javascript"></script>
   </body>
-  <script src="./js/js.js" type="text/javascript"></script>
 </html>
