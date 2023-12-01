@@ -1,0 +1,14 @@
+¿Qué hace el proyecto?
+El proyecto consiste en una página web para la gestión de platillos en restaurantes, utilizando HTML, JavaScript y CSS. Incluye un sistema de inicio de sesión, una lista de platillos con filtrado y una ventana "Ver más" para modificar detalles específicos de cada platillo.
+
+¿Por qué el proyecto es útil?
+Facilita la administración eficiente de platillos en un entorno restaurantero. El sistema de inicio de sesión asegura la privacidad, la lista con filtrado agiliza la búsqueda, y la ventana "Ver más" permite personalizar la información de cada platillo de manera sencilla.
+
+¿Cómo pueden comenzar los usuarios con el proyecto?
+Los usuarios pueden iniciar sesión para acceder a la lista completa de platillos. Desde allí, pueden filtrar y explorar platillos. Al hacer clic en "Ver más", podrán modificar información detallada de cada platillo según sus necesidades.
+
+¿Dónde pueden recibir ayuda los usuarios con tu proyecto?
+Para obtener ayuda, los usuarios pueden dejar sus comentarios en el repositorio de github, donde se proporcionan instrucciones detalladas.
+
+¿Quién mantiene y contribuye con el proyecto?
+El proyecto es mantenido por Michael Estiven Toro Martinez, con contribuciones de desarrolladores dedicados. Para actualizaciones, mejoras o informar problemas, los usuarios pueden acceder al repositorio del proyecto en github y contribuir o reportar problemas.
